@@ -8,5 +8,9 @@ namespace App
 {
     public class ConverterLibrary
     {
+        public int GetInt(string nombre)
+        {
+            return int.Parse(nombre) + 1; //Oops
+        }
     }
 }
